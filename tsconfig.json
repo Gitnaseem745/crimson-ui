@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "outDir": "dist",
+      "skipLibCheck": true,
+    },
+    "exclude": [
+      "node_modules",
+      "dist",
+      "build"
+    ],
+    "include": [
+      "components/**/*",
+      "index.ts"
+    ]
+  }
