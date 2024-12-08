@@ -1,0 +1,14 @@
+.button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #27272A;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .buttonHover {
+    background-color: #27272A;
+    color: inherit;
+  }

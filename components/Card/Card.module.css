@@ -1,0 +1,27 @@
+.cardContainer {
+    background-color: transparent;
+    color: white;
+    max-width: 350px;
+    max-height: 400px;
+    padding: 20px;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .cardContainerHover {
+    background-color: #27272A;
+  }
+
+  .cardTitle {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: 600; /* "semibold" */
+  }
+
+  .cardContent {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500; /* "medium" */
+  }
